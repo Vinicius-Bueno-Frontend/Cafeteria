@@ -1,0 +1,63 @@
+* {
+  margin: 0; /*zerar a margem externa dos elementos*/
+  padding: 0; /*zerar a margem interna dos elementos*/
+}
+
+header {
+  /* Vamos adicionar uma imagem de fundo ao cabeçalho */
+  background-image: url("../img/cafeteria2.jpg");
+  background-position: 0px -275px;
+  height: 300px;
+  transition: ease 1s;
+}
+
+h1 {
+  color: rgba(255, 255, 255);
+  text-align: center;
+  font-family: "montserrat";
+  font-size: 40pt;
+  padding-top: 100px;
+  text-shadow: 5px 5px 10px rgb(0, 0, 0);
+}
+/* Vamos formatar os elementos de li para ficar 
+um ao lado do outro com o comando display */
+
+nav ul li {
+  /* Dispor os links um ao lado do outro */
+  display: inline-block;
+  margin-left: 10px;
+  margin-right: 10px;
+}
+/*Alinhar os elementos de link ao centro usando 
+text-align:center no nav, assim tudo que estiver 
+dentro do nav irá para o centro */
+
+nav {
+  text-align: center;
+  margin-top: 100px;
+  /* A cor utilizada para o fundo da barra nav foi o rgba, 
+  que significa red green blue e alpha (transparência), onde
+  o valor mais próximo do 0(zero) é totalmente transparente e 
+  quando mais próximo do 1 é totalmente sólido. Neste caso
+  estamos usando 80% de solidez, ou seja, aplicamos 
+  20% de transparência  */
+  background-color: rgba(255, 255, 255, 0.9);
+  padding-top: 7px;
+  padding-bottom: 10px;
+}
+
+nav ul li a {
+  color: rgb(100, 0, 0);
+  /* Para retirar o sublinhado(underline) dos links
+  utilizaremos o comando text-decoration com o valor
+  none(nenhum)  */
+  text-decoration: none;
+  font-family: "catamaran";
+  /* Aplicação de negrito na letra */
+  font-weight: bold;
+}
+
+nav ul li a:hover {
+  text-decoration: underline;
+  color: red;
+}

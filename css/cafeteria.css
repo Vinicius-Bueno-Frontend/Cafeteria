@@ -52,7 +52,7 @@ nav ul li a {
   utilizaremos o comando text-decoration com o valor
   none(nenhum)  */
   text-decoration: none;
-  font-family: "catamaran";
+  font-family: "montserrat";
   /* Aplicação de negrito na letra */
   font-weight: bold;
 }
@@ -60,4 +60,24 @@ nav ul li a {
 nav ul li a:hover {
   text-decoration: underline;
   color: red;
+}
+
+/* Criação da formatação do rodapé(footer) */
+footer {
+  background-color: rgb(0, 0, 0);
+  text-align: center;
+  color: white;
+  font-family: "montserrat";
+  font-weight: bold;
+  padding-top: 10px;
+}
+
+div ul li {
+  display: inline-block;
+  margin-left: 10px;
+  margin-right: 10px;
+}
+div a {
+  color: darkcyan;
+  text-decoration: none;
 }
